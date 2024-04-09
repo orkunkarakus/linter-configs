@@ -9,7 +9,8 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
 		"changeset": "changeset",
 		"version": "changeset version",
-		"release": "turbo run release && release-it"
+		"release": "changeset publish && release-it",
+		"publish": "changeset publish"
 	},
 	"devDependencies": {
 		"@mr.karakus/eslint-config-common-ts": "workspace:*",

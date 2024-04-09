@@ -1,6 +1,6 @@
 {
 	"name": "@mr.karakus/prettier-config",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Prettier Config",
 	"main": "index.json",
 	"license": "MIT",
