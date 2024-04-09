@@ -8,7 +8,7 @@
 export default {
 	parser: '@typescript-eslint/parser',
 	extends: [
-		'@orkunkarakus/eslint-config-react',
+		'@mr.karakus/eslint-config-react',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:import/typescript'
 	],

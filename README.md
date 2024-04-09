@@ -7,15 +7,15 @@
 
 ### Eslint Packages
 
-- @orkunkarakus/eslint-config-common
-- @orkunkarakus/eslint-config-common-ts
-- @orkunkarakus/eslint-config-react
-- @orkunkarakus/eslint-config-react-ts
-- @orkunkarakus/eslint-config-react-native
+- @mr.karakus/eslint-config-common
+- @mr.karakus/eslint-config-common-ts
+- @mr.karakus/eslint-config-react
+- @mr.karakus/eslint-config-react-ts
+- @mr.karakus/eslint-config-react-native
 
 ### Prettier Packages
 
-- @orkunkarakus/prettier-config
+- @mr.karakus/prettier-config
 
 ---
 

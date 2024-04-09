@@ -1,5 +1,5 @@
 {
-	"name": "@orkunkarakus/prettier-config",
+	"name": "@mr.karakus/prettier-config",
 	"version": "0.0.1",
 	"description": "Prettier Config",
 	"main": "index.json",
@@ -9,6 +9,6 @@
 		"prettier-config"
 	],
 	"scripts": {
-		"release": "npm publish"
+		"release": "npm publish --access public"
 	}
 }

@@ -15,6 +15,9 @@
 		},
 		"release": {
 			"cache": false
+		},
+		"version:patch": {
+			"cache": false
 		}
 	}
 }

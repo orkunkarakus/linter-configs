@@ -1,7 +1,7 @@
 {
-	"name": "@orkunkarakus/eslint-config-react",
+	"name": "@mr.karakus/eslint-config-react",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"author": "Orkun KARAKUS",
 	"description": "React Eslint Config",
 	"type": "module",
@@ -15,10 +15,10 @@
 	"scripts": {
 		"build": "microbundle",
 		"dev": "microbundle watch",
-		"release": "npm publish"
+		"release": "npm publish --access public"
 	},
 	"dependencies": {
-		"@orkunkarakus/eslint-config-common": "workspace:*",
+		"@mr.karakus/eslint-config-common": "workspace:*",
 		"eslint-plugin-jsx-a11y": "6.6.1",
 		"eslint-plugin-react": "7.31.11",
 		"eslint-plugin-react-hooks": "4.6.0",

@@ -7,7 +7,7 @@
 
 export default {
 	extends: [
-		'@orkunkarakus/eslint-config-common',
+		'@mr.karakus/eslint-config-common',
 		'plugin:react/recommended',
 		'plugin:react-redux/recommended',
 		'plugin:react-hooks/recommended',

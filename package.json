@@ -1,23 +1,26 @@
 {
 	"name": "lint-configs",
-	"private": true,
+	"private": false,
 	"version": "0.0.1",
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"lint": "turbo lint",
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"changeset": "changeset",
+		"version": "changeset version",
 		"release": "turbo run release && release-it"
 	},
 	"devDependencies": {
-		"@orkunkarakus/eslint-config-common-ts": "workspace:*",
-		"@orkunkarakus/prettier-config": "workspace:*",
+		"@mr.karakus/eslint-config-common-ts": "workspace:*",
+		"@mr.karakus/prettier-config": "workspace:*",
 		"tsconfig": "workspace:*",
 		"turbo": "latest",
 		"release-it": "17.1.1",
 		"eslint": "8.44.0",
 		"prettier": "3.0.0",
-		"microbundle": "0.15.1"
+		"microbundle": "0.15.1",
+		"@changesets/cli": "2.27.1"
 	},
 	"engines": {
 		"node": ">=18"

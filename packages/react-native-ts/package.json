@@ -1,7 +1,7 @@
 {
-	"name": "@orkunkarakus/eslint-config-react-native",
+	"name": "@mr.karakus/eslint-config-react-native",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"author": "Orkun KARAKUS",
 	"description": "React Eslint Config",
 	"type": "module",
@@ -15,10 +15,10 @@
 	"scripts": {
 		"build": "microbundle",
 		"dev": "microbundle watch",
-		"release": "npm publish"
+		"release": "npm publish --access public"
 	},
 	"dependencies": {
-		"@orkunkarakus/eslint-config-react-ts": "workspace:*",
+		"@mr.karakus/eslint-config-react-ts": "workspace:*",
 		"eslint-plugin-react-native": "4.1.0"
 	},
 	"peerDependencies": {

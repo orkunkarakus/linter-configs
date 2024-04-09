@@ -1,7 +1,7 @@
 {
-	"name": "@orkunkarakus/eslint-config-common-ts",
+	"name": "@mr.karakus/eslint-config-common-ts",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"author": "Orkun KARAKUS",
 	"description": "Common TS Eslint Config",
 	"type": "module",
@@ -15,10 +15,10 @@
 	"scripts": {
 		"build": "microbundle",
 		"dev": "microbundle watch",
-		"release": "npm publish"
+		"release": "npm publish --access public"
 	},
 	"dependencies": {
-		"@orkunkarakus/eslint-config-common": "workspace:*",
+		"@mr.karakus/eslint-config-common": "workspace:*",
 		"@typescript-eslint/eslint-plugin": "6.7.3",
 		"@typescript-eslint/parser": "6.7.3"
 	},

@@ -6,6 +6,6 @@
  */
 
 export default {
-	extends: ['@orkunkarakus/eslint-config-react-ts'],
+	extends: ['@mr.karakus/eslint-config-react-ts'],
 	plugins: ['react-native']
 };
