@@ -1,24 +1,29 @@
 {
-  "name": "eslint-config",
-  "private": true,
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "prettier": "^3.2.5",
-    "turbo": "latest"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "packageManager": "bun@1.1.3",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+	"name": "lint-configs",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"lint": "turbo lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"release": "release-it"
+	},
+	"devDependencies": {
+		"@orkunkarakus/eslint-config-common-ts": "workspace:*",
+		"@orkunkarakus/prettier-config": "workspace:*",
+		"tsconfig": "workspace:*",
+		"turbo": "latest",
+		"release-it": "17.1.1",
+		"eslint": "8.44.0",
+		"prettier": "3.0.0",
+		"microbundle": "0.15.1"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"packageManager": "bun@1.1.3",
+	"workspaces": [
+		"packages/*",
+		"core/*"
+	]
 }

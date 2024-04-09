@@ -1,0 +1,3 @@
+{
+  "extends": ["@orkunkarakus/eslint-config-common-ts"]
+}

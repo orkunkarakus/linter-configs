@@ -1,0 +1,31 @@
+{
+	"name": "@orkunkarakus/eslint-config-common-ts",
+	"version": "0.0.1",
+	"private": true,
+	"author": "Orkun KARAKUS",
+	"description": "Common TS Eslint Config",
+	"type": "module",
+	"exports": {
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.modern.js"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.module.js",
+	"unpkg": "./dist/index.umd.js",
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	},
+	"dependencies": {
+		"@orkunkarakus/eslint-config-common": "workspace:*",
+		"@typescript-eslint/eslint-plugin": "6.7.3",
+		"@typescript-eslint/parser": "6.7.3"
+	},
+	"peerDependencies": {
+		"eslint": ">= 8.44.0",
+		"prettier": ">= 3.0.0"
+	},
+	"devDependencies": {
+		"tsconfig": "workspace:*"
+	}
+}
