@@ -1,12 +1,14 @@
 {
-    "name": "@orkunkarakus/prettier-config",
-    "version": "0.0.1",
-    "description": "Prettier Config",
-    "main": "index.json",
-    "license": "MIT",
-    "keywords": [
-      "prettier",
-      "prettier-config"
-    ]
-  }
-  
+	"name": "@orkunkarakus/prettier-config",
+	"version": "0.0.1",
+	"description": "Prettier Config",
+	"main": "index.json",
+	"license": "MIT",
+	"keywords": [
+		"prettier",
+		"prettier-config"
+	],
+	"scripts": {
+		"release": "npm publish"
+	}
+}

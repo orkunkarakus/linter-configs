@@ -1,12 +1,13 @@
 {
 	"name": "lint-configs",
 	"private": true,
+	"version": "0.0.1",
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"lint": "turbo lint",
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
-		"release": "release-it"
+		"release": "turbo run release && release-it"
 	},
 	"devDependencies": {
 		"@orkunkarakus/eslint-config-common-ts": "workspace:*",
