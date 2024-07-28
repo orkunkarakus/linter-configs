@@ -1,5 +1,12 @@
 # @mr.karakus/eslint-config-common-ts
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @mr.karakus/eslint-config-common@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
