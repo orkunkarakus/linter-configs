@@ -1,5 +1,11 @@
 # @mr.karakus/eslint-config-react-ts
 
+## 0.0.5
+
+### Patch Changes
+
+- @mr.karakus/eslint-config-react@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

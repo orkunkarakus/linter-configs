@@ -1,5 +1,12 @@
 # @mr.karakus/eslint-config-react
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies
+  - @mr.karakus/eslint-config-common@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
