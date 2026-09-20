@@ -1,0 +1,100 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+  "vcs": {
+    "enabled": false
+  },
+  "files": {
+    "ignoreUnknown": true,
+    "includes": [
+      "**/*.{ts,js}",
+      "!**/dist",
+      "!**/build",
+      "!**/node_modules",
+      "!**/*.gen.ts",
+      "!**/.turbo",
+      "!**/.git",
+      "!**/*.yaml"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+
+      "a11y": {
+        "recommended": false
+      },
+
+      "security": {
+        "recommended": true,
+        "noGlobalEval": "error"
+      },
+
+      "performance": {
+        "recommended": true
+      },
+
+      "style": {
+        "recommended": true,
+        "useExportType": "off",
+        "useImportType": "off",
+
+        "noNestedTernary": "warn",
+        "noUselessElse": {
+          "level": "warn",
+          "fix": "safe"
+        }
+      },
+
+      "complexity": {
+        "recommended": true,
+        "noBannedTypes": "error",
+        "noUselessThisAlias": "error"
+      },
+
+      "suspicious": {
+        "recommended": true,
+        "noConsole": "warn",
+        "noDebugger": "error",
+        "noExplicitAny": "warn",
+        "noTsIgnore": "warn"
+      },
+
+      "correctness": {
+        "recommended": true,
+        "noUnusedImports": "error",
+        "noUnusedVariables": {
+          "level": "warn",
+          "fix": "safe"
+        }
+      }
+    }
+  },
+
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  },
+
+  "json": {
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": false
+    },
+    "formatter": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "src/**/*.{ts,tsx,js,jsx}",
+      "!**/dist",
+      "!**/build",
+      "!**/*.gen.ts",
+      "!**/vite.config.ts.timestamp-*.mjs",
+      "!**/node_modules",
+      "!**/.vscode",
+      "!**/*.lock",
+      "!**/.tanstack",
+      "!**/.turbo",
+      "!**/.git",
+      "!**/.github",
+      "!**/.idea",
+      "!**/.husky",
+      "!**/.yalc",
+      "tests/**/*.{ts,tsx,js,jsx}",
+      "vite.config.ts",
+      "biome.json",
+      "tsconfig.json",
+      "vitest.config.mts"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "recommended": true,
+        "useAltText": "error",
+        "useValidAnchor": "error"
+      },
+      "security": {
+        "recommended": true,
+        "noGlobalEval": "error"
+      },
+      "nursery": {
+        "recommended": true,
+        "useExhaustiveSwitchCases": "error"
+      },
+      "performance": {
+        "recommended": true
+      },
+      "style": {
+        "recommended": true,
+        "useDefaultSwitchClause": "error",
+        "noUselessElse": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noNestedTernary": "warn",
+        "noParameterAssign": "error",
+        "noRestrictedGlobals": "error",
+        "noYodaExpression": "error",
+        "useConsistentArrayType": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "useExportType": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "useImportType": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "useThrowOnlyError": "error",
+        "useLiteralEnumMembers": "error"
+      },
+      "complexity": {
+        "useArrowFunction": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "useLiteralKeys": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noExtraBooleanCast": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noUselessLabel": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noUselessCatch": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noUselessRename": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noBannedTypes": "error",
+        "noUselessThisAlias": "error",
+        "noUselessSwitchCase": "error",
+         "noImportantStyles": "off"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "error",
+        "noDoubleEquals": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noAsyncPromiseExecutor": "error",
+        "noConsole": "warn",
+        "noDebugger": "error",
+        "noDuplicateCase": "error",
+        "noEmptyBlockStatements": "error",
+        "noGlobalAssign": "error",
+        "noRedeclare": "error",
+        "noTsIgnore": "error",
+        "noEmptyInterface": "error",
+        "noExplicitAny": "error",
+        "noExtraNonNullAssertion": "error",
+        "noDuplicateJsxProps": "error"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "useHookAtTopLevel": "error",
+        "noUnusedImports": "error",
+        "noUnusedVariables": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "noConstAssign": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "noSelfAssign": "error",
+        "noUnreachable": "error",
+        "noUnsafeFinally": "error",
+        "noUnsafeOptionalChaining": "error",
+        "useIsNan": {
+          "level": "error",
+          "fix": "safe"
+        },
+        "useValidTypeof": "error"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  },
+  "json": {
+    "parser": {
+      "allowComments": false,
+      "allowTrailingCommas": false
+    },
+    "formatter": {
+      "enabled": false
+    },
+    "linter": {
+      "enabled": true
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true,
+      "cssModules": true
+    },
+    "formatter": {
+      "enabled": false,
+      "indentStyle": "tab",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "lineWidth": 80,
+      "quoteStyle": "double"
+    },
+    "linter": {
+      "enabled": true
+    }
+  }
+}
+

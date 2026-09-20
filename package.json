@@ -2,6 +2,7 @@
 	"name": "lint-configs",
 	"private": false,
 	"version": "0.0.5",
+	"packageManager": "pnpm@10.4.0",
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev",

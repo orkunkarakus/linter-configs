@@ -1,0 +1,21 @@
+{
+	"name": "@mr.karakus/biome-config",
+	"version": "0.0.1",
+	"private": false,
+	"author": "Orkun KARAKUS",
+	"description": "React Biome Config",
+	"type": "module",
+	"exports": {
+		"./react": "./dist/react.json",
+		"./backend": "./dist/backend.json"
+	},
+	"scripts": {
+		"build": "rm -rf dist && mkdir -p dist && cp src/*.json dist/",
+		"dev": "true",
+		"release": "npm publish --access public"
+	},
+	"dependencies": {},
+	"peerDependencies": {
+		"@biomejs/biome": "2.3.8"
+	}
+}
