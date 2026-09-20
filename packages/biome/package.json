@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": false,
 	"author": "Orkun KARAKUS",
-	"description": "React Biome Config",
+	"description": "Biome Config",
 	"type": "module",
 	"exports": {
 		"./react": "./dist/react.json",
